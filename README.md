@@ -9,8 +9,11 @@ w celu zmniejszenia zakresu danych jakie porównad musiałby jeden proces gdyby 
 zastosowad oraz do poinformowania pozostałych procesów o ewentualnym znalezieniu łańcucha w
 którym zawiera się hasła z którego został stworzony łamany hash.
 ## Kompilacja
-make build  Kompiluje projekt  
-make test	Kompiluje testy  
+make build  
+Kompiluje projekt
+
+make test  
+Kompiluje testy
 ## Uruchomienie
 mpirun -np &lt;n&gt; mpi-rainbow-tables  
 (opcje opisane w opcji pomocy: mpi-rainbow-tables --help)
