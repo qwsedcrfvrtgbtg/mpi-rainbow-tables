@@ -126,8 +126,8 @@ int main(int argc, char** argv)
 
     // pobieranie opcji
     get_options(argc, argv,
-                charset, max_chain_length,
-                min_password_length, max_password_length);
+                &charset, &max_chain_length,
+                &min_password_length, &max_password_length);
 
     // tworzenie zakresu haseł
     range_t range;

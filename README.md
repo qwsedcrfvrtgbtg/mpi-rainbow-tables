@@ -8,3 +8,9 @@ wykorzystany zostanie on do równomiernego podziału tablicy tęczowej między w
 w celu zmniejszenia zakresu danych jakie porównad musiałby jeden proces gdyby tego nie
 zastosowad oraz do poinformowania pozostałych procesów o ewentualnym znalezieniu łaocucha w
 którym zawiera się hasła z którego został stworzony łamany hash.
+## Kompilacja
+make build	Kompiluje projekt
+make test	Kompiluje testy
+## Uruchomienie
+mpirun -np <n> mpi-rainbow-tables
+(opcje opisane w opcji pomocy: mpi-rainbow-tables --help)
